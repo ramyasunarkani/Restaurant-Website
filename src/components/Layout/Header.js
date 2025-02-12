@@ -8,7 +8,7 @@
         <>
             <header className={style.header}>
             <h1>ReactMeals</h1>
-            <HeaderButton/>
+            <HeaderButton onClick={props.onCartShow}/>
             </header>
             <div className={style["main-image"]}>
                 <img src={image} alt="table of foods"/>
