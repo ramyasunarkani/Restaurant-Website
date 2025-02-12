@@ -1,5 +1,5 @@
 import style from "./HeaderButton.module.css"
-import CartIcon from "./CartIcon";
+import CartIcon from "../Cart/CartIcon";
 const HeaderButton=()=>{
     return <button className={style.button}>
         <span className={style.icon}><CartIcon/> </span>
